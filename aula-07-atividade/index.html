@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07 - Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo">
+    <h1>Dados do usuário:</h1>
+    </div>
+
+</body>
+<script>
+  let nome = window.prompt("Digite seu nome:");
+  let anonasci = Number(window.prompt("Digite seu ano de nascimento:"));
+  let cidade = window.prompt("Digite a cidade em que você mora:");
+  let  salario = Number(window.prompt("Digite seu salário:"));
+  let idade = 2026 - anonasci;
+  let conversao = salario * 0.19;
+    document.write(`<br> O nome do usuário é: ${nome}`);
+    document.write(`<br> A idade  é: ${idade}`);
+    document.write(`<br> Sua cidade em letras maiúsculas: ${cidade.toUpperCase()}`);
+    document.write(`<br> Seu salário convertido em dolar: ${conversao.toLocaleString('pt-br', {style: 'currency', currency:'USD' })}`);
+</script>
+</html>
