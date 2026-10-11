@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introdução ao JavaScript</title>
+  </head>
+  <body>
+    <h1>Introdução ao JavaScript</h1>
+    <p>Eu sou...</p>
+  </body>
+
+  <!-- JAVASCRIPT INTERNO-->
+  <script>
+    // Aqui ira o código Javascript
+    //comentario em linha
+    /* comentario em bloco */
+
+    //DECLARANDO VARIAVEIS
+
+    //VAR
+    var nome = "Gabriela";
+    document.write(nome);
+    document.write("<br>");
+    //Solicitando dados ao usuario
+    nome =  window.prompt("Digite seu nome:");
+    document.write(nome);
+
+    //LET
+    let cidade = window.prompt("Digite sua cidade:");
+    //let cidade = "Pariquera"; -> não é possivel
+    document.write("<br>");
+    //cidade = "São Paulo";
+    document.write("Eu moro em " + cidade);
+
+    //CONST
+    document.write("<br>");
+    const idade = Number(window.prompt("Digite sua idade:"));
+    //idade = 17;
+    document.write("Tenho " + idade + " anos!");
+    //const idade = 18 -> não é possivel
+
+    //VERIFICANDO O TIPO DAS VARIAVEIS
+    document.write("<br>");
+    document.write("O tipo da variável nome é " + typeof nome);
+    document.write("<br> O tipo da variável idade é " + typeof idade);
+    // O JAVASCRIPT OS TIPOS DE Á S VARIAVEIS DE FORMA DINÂMICA
+
+    //EXIBINDO UMA MENSAGEM DE ALERTA PARA O USUARIO
+    window.alert(`Bem vindo ${nome}!`);
+
+    //SOLICITANDO AO USUARIO DOIS NÚMEROS
+    const n1 = Number(window.prompt( "Digite um número:"));
+     const n2 = Number(window.prompt("Digite um número:"));
+     const soma = n1 + n2;
+     //document.write("<br> O resultado da soma é " + soma);
+     document.write(`<br> O resultado da soma de ${n1} + ${n2} é ${soma}`);
+
+     //FORMATANDO STRINGS
+    document.write(`<br> Seu nome em letras maiúsculas é ${nome.toUpperCase()}`);
+     document.write(`<br> Seu nome em letras minúsculas é ${nome.toLocaleLowerCase()}`);
+     
+    //FORMATAÇÃO DE NÚMEROS
+    const salario = 2500;
+    document.write(`<br> Salário com casa decimais: ${salario.toFixed(2)}`);
+    document.write(`<br> Salário com casa decimais em vírgula: ${salario.toFixed(2).replace('.', ',')}`);
+
+    //FORMATAÇÃO DE MOEDAS
+    document.write(`<br> Salárioa em real: ${salario.toLocaleString('pt-br', {style: 'currency', currency:'BRL' })}`);
+    document.write(`<br> Salárioa em dolar: ${salario.toLocaleString('pt-br', {style: 'currency', currency:'USD' })}`);
+
+   //EXERCICIO - AULA 07
+   //crie uma pagina em javascript que solicite os seguintes dados do usuario
+   /* 1 - nome
+      2 - Ano de nascimento
+      3 - cidade
+      5 - salario
+
+      Após receber esses dados o sistema deve imprimir na página:
+      1 - nome do usuario
+      2 - Sua idade
+      3 - Sua cidade em letras maisculas
+      4 - Seu salario convertido para dolar */
+
+
+  </script>
+</html>

@@ -1,0 +1,29 @@
+1. O que é o Bootstrap e para que serve no desenvolvimento web?
+O Bootstrap é um framework front-end que facilita a criação de sites responsivos, com layouts e componentes prontos, como botões, menus e formulários.
+
+2. Quem criou o Bootstrap e em que contexto ele surgiu?
+O Bootstrap foi criado por Mark Otto e Jacob Thornton, desenvolvedores do Twitter, em 2011, para padronizar o desenvolvimento e melhorar a consistência das interfaces da plataforma.
+
+3. É necessário saber JavaScript para usar o Bootstrap? Por quê?
+Não. É possível usar o Bootstrap apenas com HTML e CSS. Porém, alguns componentes interativos, como modais, menus expansíveis e carrosséis, utilizam JavaScript.
+
+4. Cite pelo menos 5 componentes prontos que o Bootstrap oferece.
+Botões (Buttons).
+Barra de navegação (Navbar).
+Cartões (Cards).
+Formulários (Forms).
+Alertas (Alerts).
+
+5. O que são as classes utilitárias do Bootstrap? Dê 3 exemplos.
+São classes prontas que permitem aplicar estilos rapidamente aos elementos HTML, sem precisar escrever CSS manualmente. Exemplos:
+text-center: centraliza o texto.
+mt-3: adiciona margem superior.
+bg-primary: aplica uma cor de fundo principal.
+
+6. Quais são as vantagens de usar um framework CSS como Bootstrap em vez de escrever todo o CSS manualmente?
+As principais vantagens são a economia de tempo, a facilidade de criar sites responsivos, a padronização visual, a reutilização de componentes e a redução da quantidade de CSS escrito.
+
+7. Quais são as possíveis desvantagens ou limitações do uso do Bootstrap?
+As desvantagens incluem a possibilidade de criar sites com aparência semelhante, a necessidade de personalização para obter um design exclusivo, o carregamento de estilos e recursos que talvez não sejam utilizados e a dependência das classes e padrões do framework.
+
+
